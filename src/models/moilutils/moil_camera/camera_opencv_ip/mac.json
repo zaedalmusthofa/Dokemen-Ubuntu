@@ -1,0 +1,8 @@
+{
+  "dc:a6:32:e9:0b:8f": {"protocol": "http://", "id": "raspberry_pi4_1", "suffix": ":8000/stream.mjpg"},
+  "00:02:d1:5b:9c:2f": {"protocol": "rtsp://", "id":  "vivoted_fe8181_1", "suffix": ":554/live.sdp"},
+  "54:6d:52:00:58:a5": {"protocol": "rtsp://", "id":  "messoa_fhe120e_1", "suffix": ":554/stream1"},
+  "f6:3a:80:0d:b5:63": {"protocol": "rtsp://", "id":  "revodata_i7063phs_1", "suffix": ":554"},
+  "3c:1b:f8:a4:91:4a": {"protocol": "rtsp://user:abcd1234@", "id":  "hikvision_ds2cd6345ewdiv_1", "suffix": ":554"},
+  "b8:a4:4f:43:89:07": {"protocol": "rtsp://user:123456@", "id":  "axis_3068p_1", "suffix": "/axis-media/media.amp"}
+}

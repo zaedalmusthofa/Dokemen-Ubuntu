@@ -1,0 +1,845 @@
+/* /////////////////////////////////////////////////////////////////////////////////////////////////
+
+SET APP STYLESHEET - FULL STYLES HERE
+LIGHT THEME - MOILAPPS
+
+# BY: Haryanto
+# PROJECT MADE WITH: Qt Designer
+# V: 4.1.0
+#
+# There are limitations on Qt licenses if you want to use your products
+# commercially, I recommend reading them on the official website:
+# https://doc.qt.io/qtforpython/licenses.html
+
+///////////////////////////////////////////////////////////////////////////////////////////////// */
+QWidget{
+    color: rgb(0, 0, 0);
+    font: 10pt "Segoe UI";
+    border:none;
+}
+
+#label_plugin_name{
+    color: rgb(0, 0, 0);
+    font: 13pt "Segoe UI";
+}
+
+#statusBar{
+    background-color: rgb(200, 200, 200);
+    border:none;
+}
+
+QToolTip {
+    font: 9pt "Segoe UI";
+    color: rgb(0, 0, 0);
+    background-image: none;
+    background-color: rgb(238, 238, 236);
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 5px solid rgb(40, 44, 52);
+    text-align: left;
+    padding-left: 8px;
+    margin: 0px;
+}
+
+.QDoubleSpinBox {
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(192, 193, 197);
+}
+
+.QSpinBox {
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(192, 193, 197);
+}
+
+#scrollArea_5 {
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(220, 221, 225);
+}
+
+#frame_main {
+    background-color: rgb(255, 255, 255);
+    border:none;
+}
+
+/* //////////////////////anypoint /////////////////*/
+#frame_anypoint_navigator .QPushButton {
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(200, 200, 200);
+}
+
+#frame_anypoint_navigator .QPushButton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#frame_anypoint_navigator .QPushButton:pressed {
+    background-color: rgb(35, 40, 49);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+/* //////////////////////////////// Logo area //////////////////////////////////// */
+#frame_logo{
+    background-color: rgb(220, 221, 225);
+}
+
+#label_logo{
+    border-radius:5px;
+}
+
+#titleLeftApp {
+    color:rgb(33, 37, 43);
+    font: 14pt "Segoe UI" Bold;
+    background-color: rgb(220, 221, 225);
+}
+
+#titleLeftDescription {
+    font: 7pt "Segoe UI";
+    color: rgb(52, 59, 72);
+}
+
+
+/* //////////////////////////////// Top Button Area /////////////////////////////// */
+#doubleSpinBox_rotate{
+    font: 10pt "Segoe UI";
+}
+
+#doubleSpinBox_zooming{
+    font: 10pt "Segoe UI";
+}
+
+#listWidget_saved_image {
+    background-color: rgb(220, 221, 225);
+}
+
+#frame_plugin {
+    background-color: rgb(220, 221, 225);
+}
+
+#frame_plugin .QLabel {
+        background-color: rgb(225,225,225); /* white background */
+        color: rgb(20,20,20);/* black text */
+        font-size: 12px; /* font size of 16px */
+        border:2px solid rgb(195,200,220);
+        padding: 5px; /* 5px padding around text */
+        border-radius: 3px; /* 5px rounded corners */
+    }
+
+#pushButton{
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color: rgb(220, 221, 225);
+}
+
+#pushButton:hover {
+    background-color: rgb(220, 221, 225);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#pushButton:pressed {
+    background-color: rgb(220, 221, 225);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+#pushButton_close_plugin_store{
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color: rgb(220, 221, 225);
+}
+
+#pushButton_close_plugin_store:hover {
+    background-color: rgb(220, 221, 225);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#pushButton_close_plugin_store:pressed {
+    background-color: rgb(220, 221, 225);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+
+#frame_top_button{
+    background-color: rgb(220, 221, 225);
+}
+
+#label_degree {
+    border-radius: 3px;
+    border: 2px solid #0f4a6c;
+}
+
+#btn_open_media {
+    color: rgb(0, 0, 0);
+    font: 11pt "Segoe UI";
+}
+
+#label_degree {
+    color: rgb(0, 0, 0);
+    font: 11pt "Segoe UI";
+}
+
+#zoom_combo_box {
+    background-color:rgb(192, 193, 197);
+    color: rgb(0, 0, 0);
+    font: 11pt "Segoe UI";
+}
+
+#frame_top_button .QDoubleSpinBox {
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(192, 193, 197);
+}
+
+#frame_top_button .QSpinBox {
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(192, 193, 197);
+}
+
+#frame_top_button .QPushButton {
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(192, 193, 197);
+}
+
+#frame_top_button .QPushButton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#frame_top_button .QPushButton:pressed {
+    background-color: rgb(35, 40, 49);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+QComboBox{
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 238, 236);
+    border-radius: 3px;
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5px;
+    padding-left: 10px;
+}
+
+QComboBox:hover{
+    border: 2px solid rgb(52, 59, 72);
+}
+
+QComboBox::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 25px;
+	border-left-width: 3px;
+	border-left-color: rgb(200, 200, 200);
+	border-left-style: solid;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-image: url(icons:chevron-down.svg);
+	background-position: center;
+	background-repeat: no-reperat;
+ }
+
+QComboBox QAbstractItemView {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding:5px;
+    selection-background-color: rgb(39, 44, 54);
+}
+
+
+/* //////////////////////////////// Left Button Area //////////////////////////////////// */
+#frame_button_left{
+    background-color: rgb(220, 221, 225);
+}
+
+#frame_button_left .QPushButton {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 25px solid transparent;
+    background-color: transparent;
+    text-align: left;
+    padding-left:50px;
+}
+
+#frame_button_left .QPushButton:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+#frame_button_left .QPushButton:pressed {
+    background-color: rgb(40, 44, 52);
+    color: rgb(255, 255, 255);
+}
+
+#frame_toggle{
+background-color: rgb(182, 180, 177);
+}
+
+#btn_togle_menu {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 25px solid transparent;
+    background-color: rgb(230, 230, 230);
+    text-align: left;
+    padding-left:50px;
+    color: rgb(113, 126, 149);
+    background-image: url(icons:menu.svg);
+}
+#btn_togle_menu:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#btn_togle_menu:pressed {
+    background-color: rgb(40, 44, 52);
+}
+
+#btn_fisheye_view {
+    background-image: url(icons:fisheye.png);
+}
+
+#btn_anypoint_view {
+    background-image: url(icons:any_point.png);
+}
+
+#btn_panorama_view {
+    background-image: url(icons:panorama_.png);
+}
+
+#btn_setting {
+    background-image: url(icons:settings.svg);
+}
+
+#btn_help{
+    background-image: url(icons:help-circle.svg);
+}
+
+#btn_form_params{
+    background-image: url(icons:text.svg);
+}
+
+#btn_clear_ui{
+    background-image: url(icons:minus-circle.svg);
+}
+
+#btn_check_update{
+    background-image: url(icons:update.png);
+}
+
+#btn_read_the_docs{
+    background-image: url(icons:read_docs.png);
+}
+
+#btn_plugin_apps{
+    background-image: url(icons:plugins.png);
+}
+
+#btn_plugin_apps:checked{
+    background-color: rgb(255, 255, 255);
+}
+
+/* ////////////////////////////// Video Controller Area ////////////////////////////// */
+#frame_video_controller{
+    background-color: rgb(220, 221, 225);
+}
+
+#frame_video_controller .QPushButton {
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:4px;
+    padding-right:4px;
+    border: 2px solid rgb(200,200,200);
+    background-color:rgb(220, 221, 225);
+}
+
+#frame_video_controller .QPushButton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0,0,0);
+
+}
+#frame_video_controller .QPushButton:pressed {
+    background-color: rgb(52, 59, 72);
+    color: rgb(255, 255, 255);
+}
+
+#frame_video_controller .QLabel {
+    color: rgb(0,0,0);
+}
+
+#record_button:checked{
+    border-radius: 3px;
+    padding-left:4px;
+    padding-right:4px;
+    border: 2px solid rgb(200,200,200);
+    background-color:rgb(150, 150, 150);
+}
+
+
+/* ////////////////////////////// Additional Right Area ////////////////////////////// */
+#frame_additional_right {
+    background-color: rgb(220, 221, 225);
+}
+
+#frame_extra_right_button .QPushButton {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgb(140, 140, 140);
+    text-align: left;
+    border-radius:25px;
+    padding-left:12px;
+}
+
+#frame_extra_right_button .QPushButton:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+#frame_extra_right_button .QPushButton:pressed {
+    background-color: rgb(40, 44, 52);
+    color: rgb(255, 255, 255);
+}
+
+/* ////////////////////////////// Additional Left Area ////////////////////////////// */
+
+#frame_additional_left .QTextBrowser{
+    color: #0f4a6c;
+    font: 8pt "Segoe UI" Bold;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background-color: rgb(238, 238, 236);
+}
+
+#scrollArea_3{
+    background-color: rgb(220, 221, 225);
+}
+
+#label_active_branch{
+    color: #0f4a6c;
+    font: 8pt "Segoe UI" Bold;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background-color: rgb(238, 238, 236);
+}
+
+#label_3{
+    color: #0f4a6c;
+    font: 8pt "Segoe UI" Bold;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background-color: rgb(238, 238, 236);
+}
+
+#frame_additional_left{
+    background-color: rgb(255,255,255);
+}
+
+#frame_content_additional_left{
+    background-color: rgb(220, 221, 225);
+}
+
+#frame_extra_left_TopBg{
+    background-color: rgb(220, 221, 225);
+}
+
+#extra_left_content{
+    background-color: rgb(255, 255, 255);
+}
+
+#pushButton_update{
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(200, 200, 200);
+}
+
+#pushButton_update:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#pushButton_update:pressed {
+    background-color: rgb(35, 40, 49);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+#btn_change_branch{
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(200, 200, 200);
+}
+
+#btn_change_branch:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#btn_change_branch:pressed {
+    background-color: rgb(35, 40, 49);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+#pushButton_commit_now{
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(200, 200, 200);
+}
+
+#pushButton_commit_now:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#pushButton_commit_now:pressed {
+    background-color: rgb(35, 40, 49);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+#btn_refresh_github{
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(200, 200, 200);
+}
+
+#btn_refresh_github:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#btn_refresh_github:pressed {
+    background-color: rgb(35, 40, 49);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+#extra_left_close_button{
+    color: rgb(0,0,0);
+    border-radius: 3px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:rgb(200, 200, 200);
+}
+
+#extra_left_close_button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(52, 59, 72);
+}
+
+#extra_left_close_button:pressed {
+    background-color: rgb(35, 40, 49);
+    border: 2px solid rgb(43, 50, 61);
+    color: rgb(255,255,255);
+}
+
+#label_title_additional_left{font: 12pt "Segoe UI" Bold; }
+
+
+/* ////////////////////////////// Label in Source Area ////////////////////////////// */
+#label_title_original{
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border: 2px solid rgb(200,200,200);
+    background-color:rgb(220, 221, 225);
+    font: 11pt "Segoe UI";
+}
+
+#label_title_original_3 {
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border: 2px solid rgb(200,200,200);
+    background-color:rgb(220, 221, 225);
+    font: 11pt "Segoe UI";
+}
+
+#label_tittle_image_saved{
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border: 2px solid rgb(200,200,200);
+    background-color:rgb(220, 221, 225);
+    font: 11pt "Segoe UI";
+}
+
+#label_title_recenter{
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border: 2px solid rgb(200,200,200);
+    background-color:rgb(238,238,236);
+    font: 11pt "Segoe UI";
+}
+
+#frame_image_original{
+    background-color: rgb(220, 221, 225);
+    border-bottom-right-radius:6px;
+}
+
+#frame_image_recenter{
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* ////////////////////////////// Scroll Content Area ////////////////////////////// */
+#scrollArea {
+    background-color: rgb(220, 221, 225);
+}
+
+#scrollArea_2 {
+    background-color: rgb(220, 221, 225);
+}
+
+QScrollBar:horizontal {
+    border: 1px solid rgb(180, 180, 180);
+    background: rgb(180, 180, 180);
+    height: 12px;
+    margin: 0px 12px 0 12px;
+    border-radius: 0px;
+}
+QScrollBar::handle:horizontal {
+    background: rgb(220, 221, 225);
+    min-width: 25px;
+    border-radius: 0px
+}
+
+QScrollBar::add-line:horizontal {
+    border: none;
+    background: rgb(130, 135, 140);
+    width: 13px;
+    background-image: url(icons:chevron-right-12.svg);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal {
+    border: none;
+    background: rgb(130, 135, 140);
+    width: 13px;
+    background-image: url(icons:chevron-left-12.svg);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal{
+     background: none;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal{
+     background: none;
+}
+
+QScrollBar:vertical {
+    border: 1px solid rgb(180, 180, 180);
+    background: rgb(180, 180, 180);
+    width: 12px;
+    margin: 12px 0px 12px 0px;
+    border-radius: 0px;
+}
+QScrollBar::handle:vertical {
+    background: rgb(220, 221, 225);
+    min-height: 25px;
+    border-radius: 0px
+}
+
+QScrollBar::add-line:vertical {
+    border: none;
+    background: rgb(130, 135, 140);
+    height: 12px;
+    background-image: url(icons:chevron-down-12.svg);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    border: none;
+    background: rgb(130, 135, 140);
+    height: 12px;
+    background-image: url(icons:chevron-up-12.svg);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+
+/* ////////////////////////////// QSpinBox Area ////////////////////////////// */
+QSpinBox{
+    border-radius: 3px;
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5px;
+    padding-left:5px;
+    font: 9pt "Segoe UI";
+}
+
+QSpinBox::hover{
+    border: 2px solid rgb(52, 59, 72);
+}
+
+QSpinBox::up-button {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+
+    width: 12px;
+    height: 10px;
+    background-image: url(icons:chevron-up-12.svg);
+    border-left-width: 1px;
+	border-left-color: rgb(200,200,200);
+	border-left-style: solid;
+}
+
+QSpinBox::down-button {
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    width: 12px;
+    height: 10px;
+    background-image: url(icons:chevron-down-12.svg);
+    border-left-width: 1px;
+	border-left-color: rgb(200,200,200);
+	border-left-style: solid;
+}
+
+QDoubleSpinBox{
+    border-radius: 3px;
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5px;
+    padding-left:2px;
+    font: 8pt "Segoe UI";
+}
+
+QDoubleSpinBox::hover{
+    border: 2px solid rgb(52, 59, 72);
+}
+
+QDoubleSpinBox::up-button {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+
+    width: 12px;
+    height: 10px;
+    background-image: url(icons:chevron-up-12.svg);
+    border-left-width: 1px;
+	border-left-color: rgb(200,200,200);
+	border-left-style: solid;
+}
+
+QDoubleSpinBox::down-button {
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    width: 12px;
+    height: 10px;
+    background-image: url(icons:chevron-down-12.svg);
+    border-left-width: 1px;
+	border-left-color: rgb(200,200,200);
+	border-left-style: solid;
+}
+
+
+/* ////////////////////////////// QCheckBox Area ////////////////////////////// */
+QCheckBox::indicator {
+    border: 2px solid rgb(52, 59, 72);
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: rgb(44, 49, 60);
+}
+
+QCheckBox::indicator:hover {
+    border: 2px solid rgb(58, 66, 81);
+}
+
+QCheckBox::indicator:checked {
+    background: 2px solid rgb(52, 59, 72);
+    border: 2px solid rgb(52, 59, 72);
+    background-image: url(icons:light/cil-check-alt-12.png) contain;
+}
+
+
+/* ////////////////////////////// QSlider Area ////////////////////////////// */
+QSlider::groove:horizontal {
+    height: 10px;
+	margin: 0px;
+	background-color: rgb(52, 59, 72);
+}
+
+QSlider::groove:horizontal:hover {
+	background-color: rgb(55, 62, 76);
+}
+
+QSlider::handle:horizontal {
+    background-color: rgb(189, 147, 249);
+    border: none;
+    height: 10px;
+    width: 15px;
+    margin: 0px;
+}
+
+QSlider::handle:horizontal:hover {
+    background-color: rgb(195, 155, 255);
+}
+
+QSlider::handle:horizontal:pressed {
+    background-color: rgb(255, 121, 198);
+}
+
+/* ###################### radio button #############33 */
+QRadioButton::indicator {
+    border: 2px solid rgb(52, 59, 72);
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+    background: rgb(44, 49, 60);
+}
+
+QRadioButton::indicator:hover {
+    border: 2px solid rgb(58, 66, 81);
+}
+
+QRadioButton::indicator:checked {
+    background: 2px solid rgb(52, 59, 72);
+    border: 2px solid rgb(52, 59, 72);
+    background-image: url(icons:light/cil-check-alt-12.png);
+}

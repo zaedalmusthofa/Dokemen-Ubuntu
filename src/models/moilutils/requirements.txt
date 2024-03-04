@@ -1,0 +1,8 @@
+PyQt6
+opencv-python
+pyexiv2==2.8.1
+GitPython
+pybind11
+dropbox
+Sphinx
+sphinx-rtd-theme

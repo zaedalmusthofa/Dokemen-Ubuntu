@@ -1,0 +1,63 @@
+    a. View Class Reference
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. automodule:: views.main_views
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: views.additional_Panorama
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: views.additionalButton
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: views.additional_Anypoint
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: views.anypoint
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: views.control_mouse
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: views.main_ui
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: views.setIconMain
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+    b. Controller Class Reference
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. automodule:: controller.main_controller
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+    c. Model Class Reference
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. automodule:: models.main_model
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
